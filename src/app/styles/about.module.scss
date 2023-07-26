@@ -1,0 +1,108 @@
+.about{
+    .container{
+        padding: 5rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 2rem;
+
+        .top{
+            display: flex;
+            gap: 5rem;
+            align-items: center;
+
+            .left{
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                gap: 4rem;
+                flex-wrap: wrap;
+
+                .headings{
+                    h2{
+                        font-size: 4.7rem;
+                        font-weight: 700;
+                        line-height: 5.5rem;
+                        letter-spacing: 0em;
+                        text-align: left;
+
+                    }
+                }
+
+                .desc{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 2rem;
+
+                    p{
+                        font-size: 2.5rem;
+                        font-weight: 400;
+                        line-height: 2.9rem;
+                        letter-spacing: 0em;
+                        text-align: left;
+
+                        span{
+                            color: #2DF4F2;
+                        }
+                    }
+                }
+            }
+
+            .right{
+                flex: .5;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                position: relative;                    
+                
+                .image-container {
+                    width: 100%;
+                
+                    > div {
+                    position: unset !important;
+                    }
+                
+                    .image {
+                    object-fit: contain;
+                    width: 100% !important;
+                    position: relative !important;
+                    height: unset !important;
+                    }
+                }
+            }
+
+        }
+
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .about{
+     .container{
+         .top{
+            flex-direction: column;
+
+            .right{
+                justify-content: center;
+            }
+         }
+     }
+    }
+ }
+ 
+ @media screen and (max-width: 480px) {
+    .about{
+        .container{
+            padding: 4rem;
+            gap: 4rem;
+            .top{
+               flex-direction: column;
+   
+               .right{
+                   justify-content: center;
+               }
+            }
+        }
+       }
+ }

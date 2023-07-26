@@ -1,0 +1,136 @@
+.join{
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 10rem 4rem;
+
+        h2{
+            font-size: 4.7rem;
+            font-weight: 700;
+            line-height: 5.5rem;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+
+        .content{
+            padding: 4rem 0rem;
+            width: 100%;
+              .timeline{
+                display: flex;
+                flex-wrap: wrap;
+                padding-top: 5rem;
+  
+                .item{
+                  flex: 1;
+                  height: 50rem;
+                  
+                  
+                  .first{
+                    height: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                    flex-direction: column;
+                    gap: 2rem;
+                    position: relative;
+  
+                    p{
+                      font-size: 2.5rem;
+                      font-weight: 400;
+                      line-height: 2.9rem;
+                      letter-spacing: 0em;
+                      text-align: center;
+                    }
+  
+                    .image-container {
+  
+                      width: 10rem;
+                      > div {
+                        position: unset !important;
+                      }
+                    
+                      .image {
+                        object-fit: contain;
+                        width: 100% !important;
+                        position: relative !important;
+                        height: unset !important;
+                      }
+                    }
+                  }
+  
+                  .second{
+                    position: relative;
+                    border-top: .1rem solid gray;
+                    height: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    flex-direction: column;
+                    gap: 2rem;
+                    
+                    .image-container {
+  
+                      width: 10rem;
+                      > div {
+                        position: unset !important;
+                      }
+                    
+                      .image {
+                        object-fit: contain;
+                        width: 100% !important;
+                        position: relative !important;
+                        height: unset !important;
+                      }
+                    }
+                    
+                    p{
+                      font-size: 2.5rem;
+                      font-weight: 400;
+                      line-height: 2.9rem;
+                      letter-spacing: 0em;
+                      text-align: center;
+                    }
+  
+                  }
+                }
+              }
+          }
+    }
+}
+
+@media screen and (max-width: 768px) {
+   .join{
+    .container{
+        flex-direction: column;
+        .content{
+            .timeline{
+    
+              .item{
+                .first{
+                  p{
+                    font-size: 1.5rem;
+                  }
+                }
+    
+                .second{
+                  p{
+                    font-size: 1.5rem;
+                  }
+                }
+              }
+            }
+          }
+        
+    }
+   }
+}
+
+@media screen and (max-width: 480px) {
+    .join{
+        .container{
+            flex-direction: column;
+            padding: 4rem;
+        }
+    }
+}

@@ -1,0 +1,56 @@
+.work{
+    .container{
+        padding: 4rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        h2{
+            font-size: 4.7rem;
+            font-weight: 700;
+            line-height: 5.5rem;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+
+        h3{
+          font-size: 2.5rem;
+          text-align: left;
+        }
+
+        p{
+          font-size: 2.5rem;
+        }
+
+        .content{
+          padding: 4rem 0rem;
+          // border: 1px solid red;
+          margin-left: 2rem;
+          display: flex;
+          flex-direction: column;
+          gap: 2rem;
+
+          li{
+            font-size: 2.5rem;
+            list-style:disc;
+
+            span{
+              color: #2DF4F2;
+            }
+          }
+            
+        }
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+  .work{
+    .container{
+      .content{
+      
+      }
+    }
+
+  }
+}

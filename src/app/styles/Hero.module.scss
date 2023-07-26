@@ -1,0 +1,119 @@
+.hero{
+    // height: 100vh;
+    height: calc(100vh - 12rem);
+    background-image: url('/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    
+
+    .container{
+        width: 100%;
+        height: 100%;
+
+        .content{
+            width: 55%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding:5rem;
+            background: rgb(0,0,0);
+            background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+
+            .inner-container{
+                padding: 5rem 0rem;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+                gap: 4rem;
+
+                .headings{
+
+                    h1{
+                        font-size: 5rem;
+                        font-weight: 700;
+                        line-height: 5.8rem;
+                        letter-spacing: 0em;
+                        text-align: left;
+
+                    }
+                }
+
+                .text{
+                    width: 85%;
+                    display: flex;
+                    flex-direction: column;
+
+                    gap: 2rem;
+
+                    p{
+                        font-size: 2.2rem;
+                        font-weight: 400;
+                        line-height: 2.9rem;
+                        letter-spacing: 0em;
+                        text-align: left;
+
+                    }
+                }
+            }
+        }    
+    }
+}
+
+.virtual-party{
+    padding: 5rem;
+    padding-top: 10rem;
+
+    .container{
+
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        p{
+             font-size: 2.2rem;
+            font-weight: 400;
+            line-height: 2.9rem;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .hero{
+        height: auto;
+        background-position: center;
+        .container{
+            .content{
+                width: 80%;
+            }
+        }
+    }
+  }
+  
+@media screen and (max-width: 768px) {
+    .hero{
+        background-position: center;
+        .container{
+            .content{
+                width: 100%;
+            }
+        }
+    }
+  }
+  
+  
+
+  @media screen and (max-width: 480px) {
+    .hero{
+        .container{
+            .content{
+                padding: 4rem;
+            }
+        }
+    }
+  }
+
