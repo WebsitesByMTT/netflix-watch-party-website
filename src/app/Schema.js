@@ -14,58 +14,58 @@ const Schema = () => {
               mainEntity: [
                 {
                   "@type": "Question",
-                  name: "How to do groupwatch on Disney plus?",
+                  name: "How to watch netflix together?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Start a movie or show, then invite friends through the icon to stream together in real-time.",
+                    text: "Use the browser extension, which synchronizes playback and allows real-time chatting with friends. You can also enjoy screen share with your friends.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "Can you screen share Disney Plus?",
+                  name: "How to watch a movie with friends online?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Yes with this extension you can share your screen with it.",
+                    text: "To watch a movie with friends online, use the extension, where you can create a virtual room and chat while enjoying the movie together in real time. Alternatively, you can also do video or audio calls to start the movie simultaneously and share reactions and comments. In comparison to teleparty extension, this extension has incredible features.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "How to do a watch party on Disney Plus?",
+                  name: "How to screen share netflix?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "To host a party on it, use this browser extension that synchronizes playback and allows chat, then invite friends to join by sharing the party link.",
+                    text: "It is a very simple and quick process, by installing the extension on your browser, you can share a URL link with your loved ones and enjoy share play.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "Can you group-watch Disney Plus on the same account?",
+                  name: "Can you screen share netflix?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Yes, you can group view on it at the same account.",
+                    text: "You can not directly share your screen on it, but by installing our third-party extension you can share your screen on it and enjoy movies and series.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "How does Groupwatch on Disney Plus work?",
+                  name: "How does netflix watch party work?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "After installing it on your browser, you can activate your account and start exploring your favorite content. You can also share the link with your friends to see movies together. You can watch the multiple latest series and movies on Teleparty Netflix and you can also Netflix chat.",
+                    text: "This extension is a third-party browser extension, that synchronizes movie or TV show playback among multiple viewers, enabling real-time chat and calls for an immersive and shared streaming experience.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "How to screen share Disney Plus?",
+                  name: "Does Netflix shave watch party?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Use this extension to activate your account. Where you will get an option to share the link with your best buddy.",
+                    text: "Yes, it has a watch party where you can enjoy unlimited movies and series.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "How to share Disney Plus with family?",
+                  name: "How to do a watch party on netflix?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "To share this with your family, create separate profiles within your account, or subscribe to the Bundle which includes multiple streaming services to enjoy content on different devices simultaneously for the whole family.",
+                    text: "To host a party, install a browser extension, then start a movie or show and invite friends via a unique URL to watch together in sync and chat in real-time.",
                   },
                 },
               ],
