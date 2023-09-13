@@ -30,8 +30,12 @@ const Footer = () => {
         <div className={styles.content}>
           <div className={styles["popular-searches"]}>
             <p>
-              <span>Popular searches:</span> family watching netflix, Netflix
-              screen share, netflix group watch and netflixparty
+              <span>Popular searches : </span>
+              <a href="https://www.watchottparty.com/" target="_blank">
+                watchottparty
+              </a>
+              , family watching netflix, Netflix screen share, netflix group
+              watch and netflixparty
             </p>
           </div>
           <ul>
