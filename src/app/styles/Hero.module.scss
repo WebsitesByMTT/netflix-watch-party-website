@@ -1,10 +1,21 @@
-.hero{
-    // height: 100vh;
-    height: calc(100vh - 12rem);
-    background-image: url('/bg.png');
+.hero-mobile{
+    background: url('/mobile.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+}
+
+.hero-large{
+    background: url('/mainphoto.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.hero{
+    // height: 100vh;
+    height: calc(100vh - 12rem);
+
     
 
     .container{
