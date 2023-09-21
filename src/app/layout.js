@@ -15,6 +15,10 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="icon" type="image/x-icon" href="/logo.svg" />
         <link rel="canonical" href="https://www.netflixparty.net/" />
+        <meta
+          name="google-site-verification"
+          content="wefdcsbNQa9n1rO0IDurbEcJi_U5N6z1Z4MIllanSXM"
+        />
 
         <meta property="og:url" content="https://www.netflixparty.net/" />
         <meta property="og:type" content="website" />
