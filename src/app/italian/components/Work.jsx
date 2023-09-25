@@ -10,7 +10,7 @@ const Work = () => {
           <h2 id="work">netflix party come funziona</h2>
 
           <ul className={styles.content}>
-            <li>Vai al tuo browser e installa l'estensione</li>
+            <li>Vai al tuo browser e installa l&apos;estensione</li>
             <li>Dopo averlo installato, puoi aggiungerlo a Chrome</li>
             <li>Quindi, devi attivare il tuo account valido su di esso</li>
             <li>

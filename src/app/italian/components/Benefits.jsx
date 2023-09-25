@@ -25,9 +25,9 @@ const Benefits = () => {
             <div className={styles.desc}>
               <p>
                 Qui puoi avere i migliori spettacoli e film. Quindi, che si
-                tratti di un film thriller d'azione o di una commedia spassosa,
+                tratti di un film thriller d&apos;azione o di una commedia spassosa,
                 questa estensione ti consente di goderti ogni momento, risate ed
-                emozioni come mai prima d'ora. Allora, cosa stai aspettando?
+                emozioni come mai prima d&apos;ora. Allora, cosa stai aspettando?
                 preparati e pianifica il tuo appuntamento virtuale con la
                 persona speciale e crea i tuoi preziosi ricordi con loro.
               </p>

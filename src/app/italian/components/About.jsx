@@ -13,7 +13,7 @@ const About = () => {
             </div>
             <div className={styles.desc}>
               <p>
-                Netflix teleparty è un'estensione del browser che ti consente di
+                Netflix teleparty è un&apos;estensione del browser che ti consente di
                 avere programmi, serie e film illimitati. Puoi watch2gether
                 tutti gli ultimi contenuti con i tuoi amici, non importa dove
                 sono e quanto sono lontani. Puoi comunque goderti il ​​tuo
@@ -21,7 +21,7 @@ const About = () => {
                 cui chat, audio e videochiamate. Con questi, puoi condividere i
                 tuoi pensieri mentre guardi i tuoi film e programmi preferiti. È
                 solo per utilizzare questa estensione, devi avere un account
-                valido e installare l'estensione del browser. Successivamente,
+                valido e installare l&apos;estensione del browser. Successivamente,
                 puoi creare un collegamento URL e ospitare la festa. Una volta
                 che tutti sono connessi, sincronizzerà automaticamente la
                 riproduzione. Ciò significa che tutti possono vedere lo stesso
