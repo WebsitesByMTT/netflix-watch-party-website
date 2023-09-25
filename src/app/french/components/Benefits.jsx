@@ -27,10 +27,10 @@ const Benefits = () => {
             <div className={styles.desc}>
               <p>
                 Ici, vous pouvez avoir les meilleurs spectacles et films. Ainsi,
-                qu'il s'agisse d'un thriller d'action ou d'une comédie
+                qu&apos;il s&apos;agisse d&apos;un thriller d&apos;action ou d&apos;une comédie
                 déchirante, cette extension vous permet de profiter de chaque
                 instant, de vos rires et de vos émotions comme jamais
-                auparavant. Alors qu'est-ce que tu attends? préparez-vous et
+                auparavant. Alors qu&apos;est-ce que tu attends? préparez-vous et
                 planifiez votre rendez-vous virtuel avec votre partenaire et
                 créez vos précieux souvenirs avec lui.
               </p>

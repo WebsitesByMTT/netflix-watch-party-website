@@ -11,7 +11,7 @@ const Work = () => {
 
           <ul className={styles.content}>
             <li>Tarayıcınıza gidin ve uzantıyı yükleyin</li>
-            <li>Kurduktan sonra chrome'a ​​ekleyebilirsiniz.</li>
+            <li>Kurduktan sonra chrome&apos;a ​​ekleyebilirsiniz.</li>
             <li>Daha sonra geçerli hesabınızı etkinleştirmeniz gerekir.</li>
             <li>
               Artık URL bağlantısını oluşturabilir ve partiye katılmaları için

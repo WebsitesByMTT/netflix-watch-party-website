@@ -18,12 +18,12 @@ const Favorite = () => {
                   pouvez pas le faire pour certaines raisons, alors ne vous
                   inquiétez pas. Download Netflix Party extension, vous pouvez
                   avoir votre heure de spectacle préférée avec eux. Vous pouvez
-                  aussi sync watch avec Netflix. Si vous avez l'habitude de
+                  aussi sync watch avec Netflix. Si vous avez l&apos;habitude de
                   parler ou de partager vos pensées tout en regardant une
                   émission, alors grâce à ses fonctionnalités incroyables telles
                   que le chat, les appels audio et vidéo, vous pouvez discuter
                   de votre scène préférée. Savez-vous quel est le côté amusant
-                  d'utiliser un teleparty netflix? vous pouvez également
+                  d&apos;utiliser un teleparty netflix? vous pouvez également
                   partager vos expressions via des emojis. Maintenant, vous
                   pouvez aussi regarder netflix a deux.
                 </p>
