@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/footer.module.scss";
+import styles from "@/app/styles/footer.module.scss";
 import Button from "./Button";
 import { BsFacebook } from "react-icons/bs";
 import { AiFillTwitterCircle, AiFillLinkedin } from "react-icons/ai";
@@ -20,7 +20,6 @@ const Footer = () => {
             />
           </div>
           <h2>Netflix watch party</h2>
-          <p>Discover movie night with Netflix watch party</p>
         </div>
 
         <Button />
@@ -47,12 +46,8 @@ const Footer = () => {
           </ul>
           <div className={styles["popular-searches"]}>
             <p>
-              <span>Popular searches : </span>
-              <a href="https://www.watchottparty.com/" target="_blank">
-                watchottparty
-              </a>
-              , family watching netflix, Netflix screen share, netflix group
-              watch and netflixparty
+              <span>Recherches populaires: </span>
+              Netflix Party and netflix teleparty
             </p>
           </div>
           <ul>
