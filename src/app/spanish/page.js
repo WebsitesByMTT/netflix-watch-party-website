@@ -28,16 +28,85 @@ export const metadata = {
 
 const page = () => {
   return (
-    <>
-      <Header />
-      <Benefits />
-      <Favorite />
-      <Work />
-      <Comments />
-      <About />
-      <Accordian />
-      <Footer />
-    </>
+    <html lang="es">
+      <head>
+        <link
+          rel="alternate"
+          href="https://www.netflixparty.net/spanish"
+          hreflang="es-es"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.netflixparty.net/spanish"
+          hreflang="es-ar"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.netflixparty.net/spanish"
+          hreflang="es-co"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.netflixparty.net/spanish"
+          hreflang="es-pe"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.netflixparty.net/spanish"
+          hreflang="es-mx"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.netflixparty.net/spanish"
+          hreflang="es-cl"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.netflixparty.net/spanish"
+          hreflang="es-uy"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.netflixparty.net/spanish"
+          hreflang="es-cr"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.netflixparty.net/spanish"
+          hreflang="es-bo"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.netflixparty.net/spanish"
+          hreflang="es-cu"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.netflixparty.net/spanish"
+          hreflang="es-ma"
+        />
+      </head>
+      <body>
+        <Header />
+        <Benefits />
+        <Favorite />
+        <Work />
+        <Comments />
+        <About />
+        <Accordian />
+        <Footer />
+      </body>
+    </html>
   );
 };
 
