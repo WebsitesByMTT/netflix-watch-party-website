@@ -28,16 +28,37 @@ export const metadata = {
 
 const page = () => {
   return (
-    <>
-      <Header />
-      <Benefits />
-      <Favorite />
-      <Work />
-      <Comments />
-      <About />
-      <Accordian />
-      <Footer />
-    </>
+    <html lang="it">
+      <head>
+        <link
+          rel="alternate"
+          href="https://www.netflixparty.net/italian"
+          hreflang="it-it"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.netflixparty.net/italian"
+          hreflang="it-sm"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.netflixparty.net/italian"
+          hreflang="it-ch"
+        />
+      </head>
+      <body>
+        <Header />
+        <Benefits />
+        <Favorite />
+        <Work />
+        <Comments />
+        <About />
+        <Accordian />
+        <Footer />
+      </body>
+    </html>
   );
 };
 

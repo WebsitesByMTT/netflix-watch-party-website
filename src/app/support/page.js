@@ -19,8 +19,7 @@ const Support = () => {
       )
       .then(
         (result) => {
-          console.log(result);
-          console.log(result.text);
+          alert("Message sent successfully");
         },
         (error) => {
           console.log(error.text);
@@ -50,7 +49,7 @@ const Support = () => {
               <input
                 id="email"
                 type="email"
-                placeholder="Enter your name"
+                placeholder="Enter your email"
                 name="email"
                 required
               />
