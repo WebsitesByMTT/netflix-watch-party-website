@@ -33,19 +33,19 @@ const page = () => {
         <link
           rel="alternate"
           href="https://www.netflixparty.net/italian"
-          hreflang="it-it"
+          hrefLang="it-it"
         />
 
         <link
           rel="alternate"
           href="https://www.netflixparty.net/italian"
-          hreflang="it-sm"
+          hrefLang="it-sm"
         />
 
         <link
           rel="alternate"
           href="https://www.netflixparty.net/italian"
-          hreflang="it-ch"
+          hrefLang="it-ch"
         />
       </head>
       <body>
