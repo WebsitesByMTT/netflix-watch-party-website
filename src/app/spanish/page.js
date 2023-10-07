@@ -33,67 +33,67 @@ const page = () => {
         <link
           rel="alternate"
           href="https://www.netflixparty.net/spanish"
-          hreflang="es-es"
+          hrefLang="es-es"
         />
 
         <link
           rel="alternate"
           href="https://www.netflixparty.net/spanish"
-          hreflang="es-ar"
+          hrefLang="es-ar"
         />
 
         <link
           rel="alternate"
           href="https://www.netflixparty.net/spanish"
-          hreflang="es-co"
+          hrefLang="es-co"
         />
 
         <link
           rel="alternate"
           href="https://www.netflixparty.net/spanish"
-          hreflang="es-pe"
+          hrefLang="es-pe"
         />
 
         <link
           rel="alternate"
           href="https://www.netflixparty.net/spanish"
-          hreflang="es-mx"
+          hrefLang="es-mx"
         />
 
         <link
           rel="alternate"
           href="https://www.netflixparty.net/spanish"
-          hreflang="es-cl"
+          hrefLang="es-cl"
         />
 
         <link
           rel="alternate"
           href="https://www.netflixparty.net/spanish"
-          hreflang="es-uy"
+          hrefLang="es-uy"
         />
 
         <link
           rel="alternate"
           href="https://www.netflixparty.net/spanish"
-          hreflang="es-cr"
+          hrefLang="es-cr"
         />
 
         <link
           rel="alternate"
           href="https://www.netflixparty.net/spanish"
-          hreflang="es-bo"
+          hrefLang="es-bo"
         />
 
         <link
           rel="alternate"
           href="https://www.netflixparty.net/spanish"
-          hreflang="es-cu"
+          hrefLang="es-cu"
         />
 
         <link
           rel="alternate"
           href="https://www.netflixparty.net/spanish"
-          hreflang="es-ma"
+          hrefLang="es-ma"
         />
       </head>
       <body>

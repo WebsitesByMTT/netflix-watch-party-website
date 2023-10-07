@@ -33,37 +33,37 @@ const page = () => {
         <link
           rel="alternate"
           href="https://www.netflixparty.net/french"
-          hreflang="fr-fr"
+          hrefLang="fr-fr"
         />
 
         <link
           rel="alternate"
           href="https://www.netflixparty.net/french"
-          hreflang="fr-be"
+          hrefLang="fr-be"
         />
 
         <link
           rel="alternate"
           href="https://www.netflixparty.net/french"
-          hreflang="fr-ca"
+          hrefLang="fr-ca"
         />
 
         <link
           rel="alternate"
           href="https://www.netflixparty.net/french"
-          hreflang="fr-ch"
+          hrefLang="fr-ch"
         />
 
         <link
           rel="alternate"
           href="https://www.netflixparty.net/french"
-          hreflang="fr-mc"
+          hrefLang="fr-mc"
         />
 
         <link
           rel="alternate"
           href="https://www.netflixparty.net/french"
-          hreflang="fr-lu"
+          hrefLang="fr-lu"
         />
       </head>
       <body>
