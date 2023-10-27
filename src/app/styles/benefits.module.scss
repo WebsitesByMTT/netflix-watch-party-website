@@ -7,8 +7,9 @@
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
-        padding: 5rem;
-        gap: 10rem;
+        padding: 0rem 5rem;
+        // gap: 10rem;
+        // border: 1px solid red;
 
         .left{
             flex: 1;
@@ -17,6 +18,7 @@
             justify-content: center;
             height: 100%;
             position: relative;
+            // border: 1px solid red;
 
             .image-container {
                 width: 100%;

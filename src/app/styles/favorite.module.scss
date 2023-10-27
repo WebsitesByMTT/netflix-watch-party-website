@@ -4,14 +4,14 @@
 
     .container{
         .top{
-            padding: 5rem;
+            padding: 0rem 5rem;
             z-index: 999;
             display: flex;
             align-items: center;
             justify-content: space-between;
             flex-direction: row;
             flex-wrap: wrap;
-            gap: 10rem;
+            // gap: 10rem;
 
 
             .left{
@@ -21,6 +21,7 @@
                 flex-direction: column;
                 gap: 4rem;
                 flex: 1;
+                
                 
                 .left-top, .left-bottom{
                     .headings{
@@ -59,7 +60,7 @@
             }
             
             .right{
-                flex: 1;
+                flex: .8;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -105,7 +106,7 @@
 
                     width: 100%;
 
-                    padding: 5rem;
+                    // padding: 5rem;
                     > div {
                       position: unset !important;
                     }
