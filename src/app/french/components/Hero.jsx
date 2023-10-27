@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import styles from "@/app/styles/Hero.module.scss";
-import Button from "./Button";
+import Button from "@/app/components/Button";
 
 const Hero = () => {
   const [bgClass, setBgClass] = useState("");
@@ -41,10 +41,10 @@ const Hero = () => {
                   profiter de vos émissions préférées. En utilisant cette
                   extension, vous pouvez également activer votre mode fête et
                   partager vos pensées et vos moments spéciaux tout en diffusant
-                  votre film ou émission préféré. Le meilleur, c&apos;est d&apos;avoir un
-                  watch party netlfix, vous pouvez même discuter, passer des
-                  appels audio et vidéo et partager vos précieux moments avec
-                  vos amis et votre famille.
+                  votre film ou émission préféré. Le meilleur, c&apos;est
+                  d&apos;avoir un watch party netlfix, vous pouvez même
+                  discuter, passer des appels audio et vidéo et partager vos
+                  précieux moments avec vos amis et votre famille.
                 </p>
               </div>
               <div className={styles.btn}>

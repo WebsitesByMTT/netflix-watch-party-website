@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "@/app/styles/footer.module.scss";
-import Button from "./Button";
+import Button from "@/app/components/Button";
 import { BsFacebook } from "react-icons/bs";
 import { AiFillTwitterCircle, AiFillLinkedin } from "react-icons/ai";
 import Link from "next/link";
