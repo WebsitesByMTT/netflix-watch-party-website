@@ -66,7 +66,7 @@ const Accordian = () => {
                 <p>{question.ques}</p>
                 <div className={styles["image-container"]}>
                   <Image
-                    src="./addLogo.svg"
+                    src="/addLogo.svg"
                     alt="add-logo"
                     fill={true}
                     className={styles.image}

@@ -7,6 +7,16 @@ const Favorite = () => {
     <div className={styles.favorite}>
       <div className={styles.container}>
         <div className={styles.top}>
+          <div className={styles.right}>
+            <div className={styles["image-container"]}>
+              <Image
+                src="/favorite.svg"
+                alt="favorite"
+                fill={true}
+                className={styles.image}
+              />
+            </div>
+          </div>
           <div className={styles.left}>
             <div className={styles["left-top"]}>
               <div className={styles.headings}>
@@ -26,16 +36,6 @@ const Favorite = () => {
                   emojiler aracılığıyla da paylaşabilirsiniz.
                 </p>
               </div>
-            </div>
-          </div>
-          <div className={styles.right}>
-            <div className={styles["image-container"]}>
-              <Image
-                src="./favorite.svg"
-                alt="favorite"
-                fill={true}
-                className={styles.image}
-              />
             </div>
           </div>
         </div>

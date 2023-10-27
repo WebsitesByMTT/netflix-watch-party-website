@@ -7,16 +7,6 @@ const Benefits = () => {
   return (
     <div className={styles.benefits} id="features">
       <div className={styles.container}>
-        <div className={styles.left}>
-          <div className={styles["image-container"]}>
-            <Image
-              src="./benefits.svg"
-              alt="benefits"
-              fill={true}
-              className={styles.image}
-            />
-          </div>
-        </div>
         <div className={styles.right}>
           <div className={styles.top}>
             <div className={styles.headings}>
@@ -43,6 +33,16 @@ const Benefits = () => {
             <div className={styles.btn}>
               <Button />
             </div>
+          </div>
+        </div>
+        <div className={styles.left}>
+          <div className={styles["image-container"]}>
+            <Image
+              src="/benefits.svg"
+              alt="benefits"
+              fill={true}
+              className={styles.image}
+            />
           </div>
         </div>
       </div>

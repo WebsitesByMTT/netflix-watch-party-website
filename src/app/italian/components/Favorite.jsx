@@ -7,6 +7,16 @@ const Favorite = () => {
     <div className={styles.favorite}>
       <div className={styles.container}>
         <div className={styles.top}>
+          <div className={styles.right}>
+            <div className={styles["image-container"]}>
+              <Image
+                src="./favorite.svg"
+                alt="favorite"
+                fill={true}
+                className={styles.image}
+              />
+            </div>
+          </div>
           <div className={styles.left}>
             <div className={styles["left-top"]}>
               <div className={styles.headings}>
@@ -21,21 +31,12 @@ const Favorite = () => {
                   parlare o condividere i tuoi pensieri mentre guardi uno
                   spettacolo, con le sue incredibili funzionalità come chat,
                   audio e videochiamate puoi discutere della tua scena
-                  preferita. Sai qual è la parte divertente dell&apos;utilizzo di a
-                  teleparty netflix? puoi anche condividere le tue espressioni
-                  tramite emoji. Ora puoi anche tu regarder netflix a deux.
+                  preferita. Sai qual è la parte divertente dell&apos;utilizzo
+                  di a teleparty netflix? puoi anche condividere le tue
+                  espressioni tramite emoji. Ora puoi anche tu regarder netflix
+                  a deux.
                 </p>
               </div>
-            </div>
-          </div>
-          <div className={styles.right}>
-            <div className={styles["image-container"]}>
-              <Image
-                src="./favorite.svg"
-                alt="favorite"
-                fill={true}
-                className={styles.image}
-              />
             </div>
           </div>
         </div>

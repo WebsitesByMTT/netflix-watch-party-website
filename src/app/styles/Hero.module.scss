@@ -1,29 +1,22 @@
-.hero-mobile{
-    background: url('/mobile.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-}
 
-.hero-large{
-    background: url('/mainphoto.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-}
 
 .hero{
     // height: 100vh;
     height: calc(100vh - 12rem);
+    background: url('/hero-bg.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
 
     
 
     .container{
         width: 100%;
         height: 100%;
+       
 
         .content{
-            width: 55%;
+            width: 60%;
             height: 100%;
             display: flex;
             align-items: center;
@@ -43,17 +36,18 @@
                 .headings{
 
                     h1{
-                        font-size: 5rem;
+                        font-size: 6rem;
                         font-weight: 700;
                         line-height: 5.8rem;
                         letter-spacing: 0em;
                         text-align: left;
+                        color: #D33434;
 
                     }
                 }
 
                 .text{
-                    width: 85%;
+                    // width: 54%;
                     display: flex;
                     flex-direction: column;
 
@@ -100,6 +94,8 @@
         .container{
             .content{
                 width: 80%;
+
+               
             }
         }
     }
@@ -123,6 +119,8 @@
         .container{
             .content{
                 padding: 4rem;
+
+               
             }
         }
     }
