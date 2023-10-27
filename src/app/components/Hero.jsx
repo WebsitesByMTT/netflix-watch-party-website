@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import styles from "../styles/Hero.module.scss";
-import Button from "./Button";
+import Button from "@/app/components/Button";
 
 const Hero = () => {
   const [bgClass, setBgClass] = useState("");

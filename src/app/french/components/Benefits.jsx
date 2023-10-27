@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "@/app/styles/benefits.module.scss";
-import Button from "./Button";
+import Button from "@/app/components/Button";
 import Image from "next/image";
 
 const Benefits = () => {
@@ -27,12 +27,12 @@ const Benefits = () => {
             <div className={styles.desc}>
               <p>
                 Ici, vous pouvez avoir les meilleurs spectacles et films. Ainsi,
-                qu&apos;il s&apos;agisse d&apos;un thriller d&apos;action ou d&apos;une comédie
-                déchirante, cette extension vous permet de profiter de chaque
-                instant, de vos rires et de vos émotions comme jamais
-                auparavant. Alors qu&apos;est-ce que tu attends? préparez-vous et
-                planifiez votre rendez-vous virtuel avec votre partenaire et
-                créez vos précieux souvenirs avec lui.
+                qu&apos;il s&apos;agisse d&apos;un thriller d&apos;action ou
+                d&apos;une comédie déchirante, cette extension vous permet de
+                profiter de chaque instant, de vos rires et de vos émotions
+                comme jamais auparavant. Alors qu&apos;est-ce que tu attends?
+                préparez-vous et planifiez votre rendez-vous virtuel avec votre
+                partenaire et créez vos précieux souvenirs avec lui.
               </p>
             </div>
             <div className={styles.btn}>

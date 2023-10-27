@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import styles from "@/app/styles/accordian.module.scss";
-import Button from "./Button";
+import Button from "@/app/components/Button";
 import Image from "next/image";
 
 const questions = [
