@@ -1,7 +1,6 @@
 import Schema from "./Schema";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
 import "./globals.css";
+import Script from "next/script";
 
 export const metadata = {
   title: " Watch and chat with Netflix watch party extension ",
@@ -28,6 +27,18 @@ export default function RootLayout({ children }) {
         <meta
           name="google-site-verification"
           content="wefdcsbNQa9n1rO0IDurbEcJi_U5N6z1Z4MIllanSXM"
+        />
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-42J6ET0TSQ" />
+        <Script
+          id="gtm-script"
+          dangerouslySetInnerHTML={{
+            __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-42J6ET0TSQ');
+          `,
+          }}
         />
       </head>
       <body>
